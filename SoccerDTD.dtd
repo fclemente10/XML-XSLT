@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!ELEMENT XMLSOCCER.COM (Player+)>
+<!ELEMENT Player (Id, Name, Height?, Weight?, Nationality, Position, Team_Id, PlayerNumber?, LoanTo?, DateOfBirth?, DateOfSigning, Signing)>	
+
+<!ELEMENT Id (#PCDATA)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT Height (#PCDATA)>
+<!ELEMENT Weight (#PCDATA)>
+<!ELEMENT Nationality (#PCDATA)>
+<!ELEMENT Position (#PCDATA)>
+<!ELEMENT Team_Id (#PCDATA)>
+<!ELEMENT PlayerNumber (#PCDATA)>
+<!ELEMENT LoanTo (#PCDATA)>
+<!ELEMENT DateOfBirth (#PCDATA)>
+<!ELEMENT DateOfSigning (#PCDATA)>
+<!ELEMENT Signing (#PCDATA)>
